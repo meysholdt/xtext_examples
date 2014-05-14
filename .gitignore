@@ -1,5 +1,5 @@
 plugin.xml_gen
 bin
-src-gen
 xtend-gen
 generated
+.antlr-generator-*.jar
