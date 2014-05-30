@@ -1,9 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.eclipse.xtext.example.arithmetics</groupId>
-	<artifactId>org.eclipse.xtext.example.arithmetics.sdk</artifactId>
-	<version>2.5.4-SNAPSHOT</version>
+	<groupId>org.eclipse.xtext.example.domainmodel</groupId>
+	<artifactId>org.eclipse.xtext.example.domainmodel.sdk</artifactId>
+	<version>2.4.3-SNAPSHOT</version>
 	<packaging>eclipse-feature</packaging>
 	<parent>
 		<groupId>org.eclipse.xtext.example</groupId>

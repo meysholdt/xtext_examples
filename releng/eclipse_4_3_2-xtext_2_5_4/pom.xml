@@ -9,6 +9,7 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>target-platform</module>
+		<module>./../../xtext_2.4.3</module>
 		<module>./../../xtext_2.5.4</module>
 		<module>p2-repository</module>
 	</modules>

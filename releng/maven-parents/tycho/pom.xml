@@ -2,22 +2,14 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.eclipse.xtext.example</groupId>
-	<artifactId>org.eclipse.xtext.example.parent</artifactId>
+	<artifactId>org.eclipse.xtext.example.maven_parents.tycho</artifactId>
 	<version>0.1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<properties>
 		<tycho-version>0.19.0</tycho-version>
-		<project.build.sourceEncoding>ISO-8859-1</project.build.sourceEncoding>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
-
-	<pluginRepositories>
-		<pluginRepository>
-			<id>fornax.plugin.repository</id>
-			<name>Fornax Plugin Repository</name>
-			<url>http://www.fornax-platform.org/m2/repository</url>
-		</pluginRepository>
-	</pluginRepositories>
 
 	<build>
 		<plugins>
@@ -27,26 +19,6 @@
 				<artifactId>tycho-maven-plugin</artifactId>
 				<version>${tycho-version}</version>
 				<extensions>true</extensions>
-			</plugin>
-
-			<plugin>
-				<groupId>org.eclipse.xtend</groupId>
-				<artifactId>xtend-maven-plugin</artifactId>
-				<version>2.5.4</version>
-				<executions>
-					<execution>
-						<phase>process-sources</phase> <!-- "generate-sources" is for MWE2, "compile" for Java -->
-						<goals>
-							<goal>compile</goal>
-						</goals>
-						<configuration>
-							<outputDirectory>xtend-gen</outputDirectory>
-						</configuration>
-					</execution>
-				</executions>
-				<configuration>
-					<encoding>UTF-8</encoding>
-				</configuration>
 			</plugin>
 
 			<plugin>
