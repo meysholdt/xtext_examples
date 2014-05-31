@@ -48,7 +48,7 @@
 								</repository>
 							</source>
 
-							<destination>./../../target/eclipse_4_3_2-xtext_2_5_4</destination>
+							<destination>./../../target/${target-name}</destination>
 
 							<!-- whether to append to the target repository content -->
 							<append>true</append>

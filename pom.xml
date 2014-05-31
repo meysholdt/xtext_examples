@@ -4,12 +4,12 @@
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.eclipse.xtext.example</groupId>
-	<artifactId>org.eclipse.xtext.example.eclipse_4_3_2-xtext_2_5_4</artifactId>
+	<artifactId>org.eclipse.xtext.example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<modules>
-		<module>target-platform</module>
-		<module>./../../xtext_2.4.3</module>
-		<module>./../../xtext_2.5.4</module>
+		<module>releng/targets</module>
+		<module>xtext_2.4.3</module>
+		<module>xtext_2.5.4</module>
 	</modules>
 </project>

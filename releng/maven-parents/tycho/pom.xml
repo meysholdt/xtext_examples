@@ -11,6 +11,15 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
+	<profiles>
+		<profile>
+			<id>eclipse_4_3_2-xtext_2_5_4</id>
+			<properties>
+				<target-name>eclipse_4_3_2-xtext_2_5_4</target-name>
+			</properties>
+		</profile>
+	</profiles>
+
 	<build>
 		<plugins>
 
@@ -29,7 +38,7 @@
 					<target>
 						<artifact>
 							<groupId>org.eclipse.xtext.example</groupId>
-							<artifactId>org.eclipse.xtext.example.target</artifactId>
+							<artifactId>target.${target-name}</artifactId>
 							<version>0.1.0-SNAPSHOT</version>
 						</artifact>
 					</target>
