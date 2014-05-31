@@ -19,5 +19,6 @@
 		<module>org.eclipse.xtext.example.fowlerdsl</module>
 		<module>org.eclipse.xtext.example.fowlerdsl.ui</module>
 		<module>org.eclipse.xtext.example.fowlerdsl.sdk</module>
+		<module>repository</module>
 	</modules>
 </project>

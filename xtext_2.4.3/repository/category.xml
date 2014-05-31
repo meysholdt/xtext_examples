@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<feature id="org.eclipse.xtext.example.arithmetics.sdk"
+		version="2.4.3.qualifier">
+		<category name="Xtext Examples" />
+	</feature>
+	<feature id="org.eclipse.xtext.example.domainmodel.sdk"
+		version="2.4.3.qualifier">
+		<category name="Xtext Examples" />
+	</feature>
+	<feature id="org.eclipse.xtext.example.fowlerdsl.sdk" version="2.4.3.qualifier">
+		<category name="Xtext Examples" />
+	</feature>
+	<category-def name="Xtext Examples" label="Xtext Examples">
+		<description>
+			Xtext Example Languages
+		</description>
+	</category-def>
+</site>

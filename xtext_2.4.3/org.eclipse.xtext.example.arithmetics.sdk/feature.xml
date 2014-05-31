@@ -20,14 +20,14 @@
          id="org.eclipse.xtext.example.arithmetics"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="2.4.3.qualifier"
          unpack="false"/>
 
    <plugin
          id="org.eclipse.xtext.example.arithmetics.ui"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="2.4.3.qualifier"
          unpack="false"/>
 
 </feature>
