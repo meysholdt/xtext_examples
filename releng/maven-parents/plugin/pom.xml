@@ -19,7 +19,7 @@
 			<plugin>
 				<groupId>org.eclipse.xtend</groupId>
 				<artifactId>xtend-maven-plugin</artifactId>
-				<version>2.5.4</version>
+				<version>${xtend-compiler-version}</version>
 				<executions>
 					<execution>
 						<phase>process-sources</phase> <!-- "generate-sources" is for MWE2, "compile" for Java -->
