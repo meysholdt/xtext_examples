@@ -8,6 +8,7 @@
 	<version>2.5.4-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<modules>
+		<module>./../releng/targets</module>
 		<module>org.eclipse.xtext.example.arithmetics</module>
 		<module>org.eclipse.xtext.example.arithmetics.ui</module>
 		<module>org.eclipse.xtext.example.arithmetics.tests</module>
