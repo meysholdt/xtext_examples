@@ -6,6 +6,7 @@
 
 	<target name="default">
 		<maven basedir="xtext_2.4.3" options="-P eclipse_4_4_0-xtext_2_6_0 -DskipTests=true" goal="install" />
+		<maven basedir="xtext_2.5.4" options="-P eclipse_4_4_0-xtext_2_6_0 -DskipTests=true" goal="install" />
 	</target>
 
 	<macrodef name="maven">
