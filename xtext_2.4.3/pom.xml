@@ -12,14 +12,14 @@
 		<module>org.eclipse.xtext.example.arithmetics</module>
 		<module>org.eclipse.xtext.example.arithmetics.ui</module>
 		<module>org.eclipse.xtext.example.arithmetics.tests</module>
-		<module>org.eclipse.xtext.example.arithmetics.sdk</module>
 		<module>org.eclipse.xtext.example.domainmodel</module>
 		<module>org.eclipse.xtext.example.domainmodel.ui</module>
 		<module>org.eclipse.xtext.example.domainmodel.tests</module>
-		<module>org.eclipse.xtext.example.domainmodel.sdk</module>
 		<module>org.eclipse.xtext.example.fowlerdsl</module>
 		<module>org.eclipse.xtext.example.fowlerdsl.ui</module>
-		<module>org.eclipse.xtext.example.fowlerdsl.sdk</module>
-		<module>repository</module>
+		<module>releng/arithmetics-feature</module>
+		<module>releng/domainmodel-feature</module>
+		<module>releng/fowlerdsl-feature</module>
+		<module>releng/repository</module>
 	</modules>
 </project>

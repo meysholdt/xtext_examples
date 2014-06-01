@@ -48,7 +48,7 @@
 								</repository>
 							</source>
 
-							<destination>./../../target/${target-name}</destination>
+							<destination>./../../../target/${target-name}</destination>
 
 							<!-- whether to append to the target repository content -->
 							<append>true</append>
