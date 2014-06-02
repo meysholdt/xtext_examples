@@ -8,6 +8,7 @@
 	<version>0.1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<modules>
+		<module>eclipse_3_7_2-xtext_2_4_0</module>
 		<module>eclipse_3_7_2-xtext_2_4_3</module>
 		<module>eclipse_4_3_2-xtext_2_5_4</module>
 		<module>eclipse_4_4_0-xtext_2_6_0</module>

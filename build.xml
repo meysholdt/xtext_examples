@@ -5,9 +5,16 @@
 	<property name="maven.home" value="${env.MAVEN_HOME}" />
 
 	<target name="default" depends="clean">
+		<maven basedir="xtext_2.4.0" options="-P eclipse_3_7_2-xtext_2_4_0 -DskipTests=true" goal="install" />
+
+		<maven basedir="xtext_2.4.0" options="-P eclipse_3_7_2-xtext_2_4_3 -DskipTests=true" goal="install" />
 		<maven basedir="xtext_2.4.3" options="-P eclipse_3_7_2-xtext_2_4_3 -DskipTests=true" goal="install" />
+
+		<maven basedir="xtext_2.4.0" options="-P eclipse_4_3_2-xtext_2_5_4 -DskipTests=true" goal="install" />
 		<maven basedir="xtext_2.4.3" options="-P eclipse_4_3_2-xtext_2_5_4 -DskipTests=true" goal="install" />
 		<maven basedir="xtext_2.5.4" options="-P eclipse_4_3_2-xtext_2_5_4 -DskipTests=true" goal="install" />
+
+		<maven basedir="xtext_2.4.0" options="-P eclipse_4_4_0-xtext_2_6_0 -DskipTests=true" goal="install" />
 		<maven basedir="xtext_2.4.3" options="-P eclipse_4_4_0-xtext_2_6_0 -DskipTests=true" goal="install" />
 		<maven basedir="xtext_2.5.4" options="-P eclipse_4_4_0-xtext_2_6_0 -DskipTests=true" goal="install" />
 		<maven basedir="xtext_2.6.0" options="-P eclipse_4_4_0-xtext_2_6_0 -DskipTests=true" goal="install" />
