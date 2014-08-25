@@ -44,6 +44,14 @@
 				<xtend-compiler-version>2.5.4</xtend-compiler-version>
 			</properties>
 		</profile>
+		<profile>
+			<id>eclipse_4_4_0-xtext_2_7_0</id>
+			<properties>
+				<destination-repository>generated-with-xtext_2_7_0</destination-repository>
+				<target-name>eclipse_4_4_0-xtext_2_7_0</target-name>
+				<xtend-compiler-version>2.6.1</xtend-compiler-version>
+			</properties>
+		</profile>
 	</profiles>
 
 	<build>

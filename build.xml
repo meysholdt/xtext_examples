@@ -18,6 +18,8 @@
 		<maven basedir="xtext_2.4.3" options="-P eclipse_4_4_0-xtext_2_6_0 -DskipTests=true" goal="install" />
 		<maven basedir="xtext_2.5.4" options="-P eclipse_4_4_0-xtext_2_6_0 -DskipTests=true" goal="install" />
 		<maven basedir="xtext_2.6.0" options="-P eclipse_4_4_0-xtext_2_6_0 -DskipTests=true" goal="install" />
+		
+		<!-- <maven basedir="xtext_2.6.0" options="-P eclipse_4_4_0-xtext_2_7_0 -DskipTests=true" goal="install" /> -->
 	</target>
 
 	<target name="clean">
@@ -35,6 +37,7 @@
 		<sequential>
 			<java classname="org.codehaus.classworlds.Launcher" fork="true" dir="${basedir}/@{basedir}" resultproperty="@{resultproperty}">
 				<jvmarg value="-Xmx512m" />
+				<jvmarg value="-XX:MaxPermSize=256m" />
 				<classpath>
 					<fileset dir="${maven.home}/boot">
 						<include name="*.jar" />
@@ -45,7 +48,7 @@
 				</classpath>
 				<sysproperty key="classworlds.conf" value="${maven.home}/bin/m2.conf" />
 				<sysproperty key="maven.home" value="${maven.home}" />
-				<arg line="--batch-mode @{options} @{goal}" />
+				<arg line="--batch-mode @{options} clean @{goal}" />
 			</java>
 		</sequential>
 	</macrodef>
