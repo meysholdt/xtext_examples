@@ -12,6 +12,7 @@
 		<module>eclipse_3_7_2-xtext_2_4_3</module>
 		<module>eclipse_4_3_2-xtext_2_5_4</module>
 		<module>eclipse_4_4_0-xtext_2_6_0</module>
+		<module>eclipse_4_4_0-xtext_2_6_2</module>
 		<module>eclipse_4_4_0-xtext_2_7_0</module>
 	</modules>
 </project>
