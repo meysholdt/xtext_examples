@@ -46,10 +46,9 @@
 		<attribute name="options" default="" />
 		<attribute name="goal" />
 		<attribute name="basedir" />
-		<attribute name="resultproperty" default="maven.result" />
 		<element name="args" implicit="true" optional="true" />
 		<sequential>
-			<java classname="org.codehaus.classworlds.Launcher" fork="true" dir="${basedir}/@{basedir}" resultproperty="@{resultproperty}">
+			<java classname="org.codehaus.classworlds.Launcher" fork="true" dir="${basedir}/@{basedir}" resultproperty="resultproperty">
 				<jvmarg value="-Xmx512m" />
 				<jvmarg value="-XX:MaxPermSize=256m" />
 				<classpath>
@@ -64,6 +63,13 @@
 				<sysproperty key="maven.home" value="${maven.home}" />
 				<arg line="--batch-mode @{options} clean @{goal}" />
 			</java>
+			<fail>
+				<condition>
+					<not>
+						<equals arg1="${resultproperty}" arg2="0" />
+					</not>
+				</condition>
+			</fail>
 		</sequential>
 	</macrodef>
 
