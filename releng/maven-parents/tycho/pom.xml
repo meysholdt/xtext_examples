@@ -53,11 +53,11 @@
 			</properties>
 		</profile>
 		<profile>
-			<id>eclipse_4_4_0-xtext_2_7_0</id>
+			<id>eclipse_4_4_0-xtext_2_7_3</id>
 			<properties>
-				<destination-repository>generated-with-xtext_2_7_0</destination-repository>
-				<target-name>eclipse_4_4_0-xtext_2_7_0</target-name>
-				<xtend-compiler-version>2.6.1</xtend-compiler-version>
+				<destination-repository>generated-with-xtext_2_7_3</destination-repository>
+				<target-name>eclipse_4_4_0-xtext_2_7_3</target-name>
+				<xtend-compiler-version>2.7.3</xtend-compiler-version>
 			</properties>
 		</profile>
 	</profiles>
