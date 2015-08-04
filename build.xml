@@ -47,6 +47,15 @@
 		<maven basedir="xtext_2.6.2" options="-P eclipse_4_4_0-xtext_2_8_3 -DskipTests=true" goal="install" />
 		<maven basedir="xtext_2.7.3" options="-P eclipse_4_4_0-xtext_2_8_3 -DskipTests=true" goal="install" /> 
 		<maven basedir="xtext_2.8.3" options="-P eclipse_4_4_0-xtext_2_8_3 -DskipTests=true" goal="install" />
+		
+		<maven basedir="xtext_2.4.0" options="-P eclipse_4_4_0-xtext_2_8_4 -DskipTests=true" goal="install" /> 
+		<maven basedir="xtext_2.4.3" options="-P eclipse_4_4_0-xtext_2_8_4 -DskipTests=true" goal="install" />
+		<maven basedir="xtext_2.5.4" options="-P eclipse_4_4_0-xtext_2_8_4 -DskipTests=true" goal="install" />
+		<maven basedir="xtext_2.6.0" options="-P eclipse_4_4_0-xtext_2_8_4 -DskipTests=true" goal="install" />
+		<maven basedir="xtext_2.6.2" options="-P eclipse_4_4_0-xtext_2_8_4 -DskipTests=true" goal="install" />
+		<maven basedir="xtext_2.7.3" options="-P eclipse_4_4_0-xtext_2_8_4 -DskipTests=true" goal="install" /> 
+		<maven basedir="xtext_2.8.3" options="-P eclipse_4_4_0-xtext_2_8_4 -DskipTests=true" goal="install" />
+		<maven basedir="xtext_2.8.4" options="-P eclipse_4_4_0-xtext_2_8_4 -DskipTests=true" goal="install" />
 
 	</target>
 
@@ -73,6 +82,7 @@
 						<include name="*.jar" />
 					</fileset>
 				</classpath>
+				<sysproperty key="maven.multiModuleProjectDirectory" value="${basedir}/" />
 				<sysproperty key="classworlds.conf" value="${maven.home}/bin/m2.conf" />
 				<sysproperty key="maven.home" value="${maven.home}" />
 				<arg line="--batch-mode @{options} clean @{goal}" />
