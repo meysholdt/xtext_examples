@@ -15,5 +15,6 @@
 		<module>eclipse_4_4_0-xtext_2_6_2</module>
 		<module>eclipse_4_4_0-xtext_2_7_3</module>
 		<module>eclipse_4_4_0-xtext_2_8_3</module>
+		<module>eclipse_4_4_0-xtext_2_8_4</module>
 	</modules>
 </project>
